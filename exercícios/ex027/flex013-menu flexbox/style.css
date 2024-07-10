@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* resetar configs */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+    /* tipo e tamanho de fonte, cor de fundo, e forçar a ocupação do espaço todo da tela */
+}
+
+header {
+    background: gray;
+    color: white;
+    padding: 10px;
+    /* padding pra espaçar um poucos os itens */
+}
+
+header > h1 {
+    border: 1px dotted black;
+    /* cria uma linha pontilhada no h1 */
+}
+
+header > nav {
+    border: 1px dotted black;
+    /* cria uma linha pontilhada no nav */
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.362);
+    /* margin pra espaçar o main do body, e padding pra desgrudar a escrita dos cantos */
+}
